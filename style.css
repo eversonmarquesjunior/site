@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+.coluna{
+    float: left;
+    width: 50%;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    border-style: solid;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: white;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
